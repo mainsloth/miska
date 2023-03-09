@@ -3,7 +3,7 @@ theme:
   name: material
   language: ru
   icon: 
-    logo: fontawesome/solid/code-compare
+    logo: fontawesome/solid/cat
   features:
     - navigation.instant
     - content.code.annotate
@@ -48,7 +48,7 @@ markdown_extensions:
       toc_depth: 0
 
 nav:
-  - Home: index.md
+  - Главная: index.md
 
 hide:
   - toc
