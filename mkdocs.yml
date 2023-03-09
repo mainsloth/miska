@@ -8,6 +8,10 @@ theme:
     - navigation.instant
     - content.code.annotate
     - content.tabs.link
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - toc.follow
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -45,13 +49,10 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
-      toc_depth: 0
+      toc_depth: 1
 
 nav:
   - Главная: index.md
-
-hide:
-  - toc
 
 extra_css:
   - stylesheets/extra.css
