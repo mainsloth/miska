@@ -53,6 +53,18 @@ markdown_extensions:
 
 nav:
   - Главная: index.md
+  - Корм для кошек: 
+    - Выбор корма: cat/index.md
+    - Эконом: cat/econom/index.md
+    - Премиум: cat/premium/index.md
+    - Супер-премиум: cat/super-premium/index.md
+    - Холистик: cat/holistic/index.md
+  - Корм для собак: 
+    - Выбор корма: dog/index.md
+    - Эконом: dog/econom/index.md
+    - Премиум: dog/premium/index.md
+    - Супер-премиум: dog/super-premium/index.md
+    - Холистик: dog/holistic/index.md
 
 extra_css:
   - stylesheets/extra.css
