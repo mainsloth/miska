@@ -52,7 +52,7 @@ markdown_extensions:
       toc_depth: 1
 
 nav:
-  - Главная: index.md
+#  - Главная: index.md
   - Корм для кошек: 
     - Выбор корма: cat/index.md
     - Эконом: cat/econom/index.md
