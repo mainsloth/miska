@@ -17,21 +17,18 @@ theme:
     - scheme: default
       primary: teal
       accent: teal
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
       primary: teal
       accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   
 markdown_extensions:
   - admonition
+  - tables
   - pymdownx.details
+  - footnotes
+  - def_list
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -48,9 +45,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - toc:
-      toc_depth: 1
-
+      toc_depth: 3
+plugins:
+  - glightbox
+  - search
 nav:
 #  - Главная: index.md
   - Корм для кошек: 
@@ -74,5 +75,8 @@ extra:
   social:
     - icon: fontawesome/solid/at
       link: mailto:renat@amerkhanov.ru
+  analytics:
+    provider: google
+    property: G-RNGZ542KLB
 
 copyright: Copyright &copy; 2023 miska.pet
