@@ -1,4 +1,4 @@
-site_name: Miska Pet
+site_name: miska.pet - обзор кормов для кошек и собак
 theme:
   name: material
   language: ru
@@ -6,11 +6,11 @@ theme:
     logo: fontawesome/solid/cat
   features:
     - navigation.instant
+    - navigation.indexes
+    - navigation.expand
     - content.code.annotate
     - content.tabs.link
     - navigation.tabs
-    - navigation.sections
-    - navigation.path
     - toc.follow
   palette:
     # Palette toggle for light mode
@@ -53,15 +53,16 @@ plugins:
   - glightbox
   - search
 nav:
-#  - Главная: index.md
   - Корм для кошек: 
-    - Выбор корма: cat/index.md
+    - cat/index.md
     - Эконом: cat/econom/index.md
     - Премиум: cat/premium/index.md
     - Супер-премиум: cat/super-premium/index.md
-    - Холистик: cat/holistic/index.md
+    - Холистик:
+      - cat/holistic/index.md
+      - Best Dinner Holistic: cat/holistic/best-dinner.md
   - Корм для собак: 
-    - Выбор корма: dog/index.md
+    - dog/index.md
     - Эконом: dog/econom/index.md
     - Премиум: dog/premium/index.md
     - Супер-премиум: dog/super-premium/index.md
